@@ -25,6 +25,13 @@ struct ContentView: View {
                     Text("Save")
                 }
                 .padding()
+                
+                Button {
+                    name = ""
+                } label: {
+                    Text("Clear")
+                }
+                .padding()
             }
             .padding()
             .navigationTitle("Home")
